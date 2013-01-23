@@ -10,6 +10,11 @@
 		BEE4340816B03A7800FAAF29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE4340716B03A7800FAAF29 /* Foundation.framework */; };
 		BEE4340B16B03A7800FAAF29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4340A16B03A7800FAAF29 /* main.m */; };
 		BEE4340F16B03A7800FAAF29 /* BankAccount.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BEE4340E16B03A7800FAAF29 /* BankAccount.1 */; };
+		BEE4341716B03ABA00FAAF29 /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4341616B03ABA00FAAF29 /* BankAccount.m */; };
+		BEE4341B16B03B4B00FAAF29 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4341A16B03B4B00FAAF29 /* Transaction.m */; };
+		BEE4341E16B03BBC00FAAF29 /* DepositTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4341D16B03BBC00FAAF29 /* DepositTransaction.m */; };
+		BEE4342116B03BC900FAAF29 /* WithdrawalTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4342016B03BC900FAAF29 /* WithdrawalTransaction.m */; };
+		BEE4342416B03BD600FAAF29 /* CheckTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4342316B03BD600FAAF29 /* CheckTransaction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +36,16 @@
 		BEE4340A16B03A7800FAAF29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEE4340D16B03A7800FAAF29 /* BankAccount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BankAccount-Prefix.pch"; sourceTree = "<group>"; };
 		BEE4340E16B03A7800FAAF29 /* BankAccount.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BankAccount.1; sourceTree = "<group>"; };
+		BEE4341516B03ABA00FAAF29 /* BankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BankAccount.h; path = src/BankAccount.h; sourceTree = "<group>"; };
+		BEE4341616B03ABA00FAAF29 /* BankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BankAccount.m; path = src/BankAccount.m; sourceTree = "<group>"; };
+		BEE4341916B03B4B00FAAF29 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transaction.h; path = src/Transaction.h; sourceTree = "<group>"; };
+		BEE4341A16B03B4B00FAAF29 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transaction.m; path = src/Transaction.m; sourceTree = "<group>"; };
+		BEE4341C16B03BBC00FAAF29 /* DepositTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepositTransaction.h; path = src/DepositTransaction.h; sourceTree = "<group>"; };
+		BEE4341D16B03BBC00FAAF29 /* DepositTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DepositTransaction.m; path = src/DepositTransaction.m; sourceTree = "<group>"; };
+		BEE4341F16B03BC900FAAF29 /* WithdrawalTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WithdrawalTransaction.h; sourceTree = "<group>"; };
+		BEE4342016B03BC900FAAF29 /* WithdrawalTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithdrawalTransaction.m; sourceTree = "<group>"; };
+		BEE4342216B03BD600FAAF29 /* CheckTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckTransaction.h; sourceTree = "<group>"; };
+		BEE4342316B03BD600FAAF29 /* CheckTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckTransaction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +88,7 @@
 		BEE4340916B03A7800FAAF29 /* BankAccount */ = {
 			isa = PBXGroup;
 			children = (
+				BEE4341816B03B3100FAAF29 /* src */,
 				BEE4340A16B03A7800FAAF29 /* main.m */,
 				BEE4340E16B03A7800FAAF29 /* BankAccount.1 */,
 				BEE4340C16B03A7800FAAF29 /* Supporting Files */,
@@ -86,6 +102,23 @@
 				BEE4340D16B03A7800FAAF29 /* BankAccount-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEE4341816B03B3100FAAF29 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4341516B03ABA00FAAF29 /* BankAccount.h */,
+				BEE4341616B03ABA00FAAF29 /* BankAccount.m */,
+				BEE4341916B03B4B00FAAF29 /* Transaction.h */,
+				BEE4341A16B03B4B00FAAF29 /* Transaction.m */,
+				BEE4341C16B03BBC00FAAF29 /* DepositTransaction.h */,
+				BEE4341D16B03BBC00FAAF29 /* DepositTransaction.m */,
+				BEE4341F16B03BC900FAAF29 /* WithdrawalTransaction.h */,
+				BEE4342016B03BC900FAAF29 /* WithdrawalTransaction.m */,
+				BEE4342216B03BD600FAAF29 /* CheckTransaction.h */,
+				BEE4342316B03BD600FAAF29 /* CheckTransaction.m */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEE4340B16B03A7800FAAF29 /* main.m in Sources */,
+				BEE4341716B03ABA00FAAF29 /* BankAccount.m in Sources */,
+				BEE4341B16B03B4B00FAAF29 /* Transaction.m in Sources */,
+				BEE4341E16B03BBC00FAAF29 /* DepositTransaction.m in Sources */,
+				BEE4342116B03BC900FAAF29 /* WithdrawalTransaction.m in Sources */,
+				BEE4342416B03BD600FAAF29 /* CheckTransaction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
