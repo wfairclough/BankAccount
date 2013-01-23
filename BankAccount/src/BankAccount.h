@@ -22,6 +22,7 @@
 
 - (BankAccount *)initWithOwnerName:(NSString *)name;
 
+- (double) balance;
 - (void) deposit: (double) amount;
 - (void) withdraw: (double) amount;
 - (void) postTransaction: (Transaction *) aTransaction;

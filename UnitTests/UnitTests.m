@@ -7,6 +7,7 @@
 //
 
 #import "UnitTests.h"
+#import "BankAccountTestCase.h"
 
 @implementation UnitTests
 
@@ -26,7 +27,11 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in UnitTests");
+    SenTestSuite *suite = [SenTestSuite testSuiteWithName:@"Bank Account Test Case"];
+    
+    [suite addTest:[SenTestSuite testSuiteForTestCaseClass:[BankAccountTestCase class]]];
+
+    [suite run];
 }
 
 @end

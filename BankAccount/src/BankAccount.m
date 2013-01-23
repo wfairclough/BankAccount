@@ -28,6 +28,14 @@
 }
 
 /*
+ * Returns the Blance value from this Bank Account
+ */
+- (double) balance
+{
+    return balance;
+}
+
+/*
  * Create a deposit transaction to perform on the account with the amount specified
  */
 - (void) deposit: (double) amount
