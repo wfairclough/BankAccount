@@ -24,6 +24,7 @@
 		BEE4344216B03DB900FAAF29 /* DepositTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4341D16B03BBC00FAAF29 /* DepositTransaction.m */; };
 		BEE4344316B03DB900FAAF29 /* WithdrawalTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4342016B03BC900FAAF29 /* WithdrawalTransaction.m */; };
 		BEE4344416B03DB900FAAF29 /* CheckTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4342316B03BD600FAAF29 /* CheckTransaction.m */; };
+		BEE4345316B05AB000FAAF29 /* BankAccountTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4345216B05AB000FAAF29 /* BankAccountTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -66,6 +67,8 @@
 		BEE4343916B03DA300FAAF29 /* UnitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitTests.h; sourceTree = "<group>"; };
 		BEE4343A16B03DA300FAAF29 /* UnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTests.m; sourceTree = "<group>"; };
 		BEE4343C16B03DA300FAAF29 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		BEE4345116B05AB000FAAF29 /* BankAccountTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankAccountTestCase.h; sourceTree = "<group>"; };
+		BEE4345216B05AB000FAAF29 /* BankAccountTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccountTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,8 @@
 				BEE4343916B03DA300FAAF29 /* UnitTests.h */,
 				BEE4343A16B03DA300FAAF29 /* UnitTests.m */,
 				BEE4343416B03DA300FAAF29 /* Supporting Files */,
+				BEE4345116B05AB000FAAF29 /* BankAccountTestCase.h */,
+				BEE4345216B05AB000FAAF29 /* BankAccountTestCase.m */,
 			);
 			path = UnitTests;
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 				BEE4344316B03DB900FAAF29 /* WithdrawalTransaction.m in Sources */,
 				BEE4344416B03DB900FAAF29 /* CheckTransaction.m in Sources */,
 				BEE4343B16B03DA300FAAF29 /* UnitTests.m in Sources */,
+				BEE4345316B05AB000FAAF29 /* BankAccountTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,15 @@
 
 @implementation Transaction
 
+- (id)initWithAmount:(double)aAmount
+{
+    if (self = [super init]) {
+        amount = aAmount;
+    }
+    
+    return self;
+}
+
 - (void) postToAccount: (BankAccount *) account
 {
     
@@ -17,7 +26,7 @@
 
 - (NSString *) description
 {
-    return [NSString stringWithFormat:@""];
+    return [NSString stringWithFormat:@"Standard Transaction with the amount - %2.f", amount];
 }
 
 @end

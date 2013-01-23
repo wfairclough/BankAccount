@@ -20,6 +20,7 @@
     NSMutableArray *transactions;
 }
 
+- (BankAccount *)initWithOwnerName:(NSString *)name;
 
 - (void) deposit: (double) amount;
 - (void) withdraw: (double) amount;

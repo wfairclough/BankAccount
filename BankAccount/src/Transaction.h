@@ -18,6 +18,7 @@
     double amount;
 }
 
+- (id)initWithAmount:(double)aAmount;
 
 - (void) postToAccount: (BankAccount *) account;
 - (NSString *) description;

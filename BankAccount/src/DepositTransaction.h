@@ -9,6 +9,7 @@
  */
 
 #import "Transaction.h"
+#import "BankAccount.h"
 
 @interface DepositTransaction : Transaction
 

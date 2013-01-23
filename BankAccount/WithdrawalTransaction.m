@@ -10,4 +10,14 @@
 
 @implementation WithdrawalTransaction
 
+- (void) postToAccount: (BankAccount *) account
+{
+    [account withdraw:amount];
+}
+
+- (NSString *) description
+{
+    return [NSString stringWithFormat:@"Withdraw $%.2f", amount];
+}
+
 @end

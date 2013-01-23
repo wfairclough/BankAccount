@@ -10,4 +10,17 @@
 
 @implementation DepositTransaction
 
+
+- (void) postToAccount: (BankAccount *) account
+{
+    [account deposit:amount];
+}
+
+
+- (NSString *) description
+{
+    return [NSString stringWithFormat:@"Deposit $%.2f", amount];
+}
+
+
 @end
