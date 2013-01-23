@@ -15,6 +15,15 @@
 		BEE4341E16B03BBC00FAAF29 /* DepositTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4341D16B03BBC00FAAF29 /* DepositTransaction.m */; };
 		BEE4342116B03BC900FAAF29 /* WithdrawalTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4342016B03BC900FAAF29 /* WithdrawalTransaction.m */; };
 		BEE4342416B03BD600FAAF29 /* CheckTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4342316B03BD600FAAF29 /* CheckTransaction.m */; };
+		BEE4342C16B03DA300FAAF29 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE4342B16B03DA300FAAF29 /* SenTestingKit.framework */; };
+		BEE4342E16B03DA300FAAF29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE4342D16B03DA300FAAF29 /* Cocoa.framework */; };
+		BEE4343816B03DA300FAAF29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE4343616B03DA300FAAF29 /* InfoPlist.strings */; };
+		BEE4343B16B03DA300FAAF29 /* UnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4343A16B03DA300FAAF29 /* UnitTests.m */; };
+		BEE4344016B03DB900FAAF29 /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4341616B03ABA00FAAF29 /* BankAccount.m */; };
+		BEE4344116B03DB900FAAF29 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4341A16B03B4B00FAAF29 /* Transaction.m */; };
+		BEE4344216B03DB900FAAF29 /* DepositTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4341D16B03BBC00FAAF29 /* DepositTransaction.m */; };
+		BEE4344316B03DB900FAAF29 /* WithdrawalTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4342016B03BC900FAAF29 /* WithdrawalTransaction.m */; };
+		BEE4344416B03DB900FAAF29 /* CheckTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4342316B03BD600FAAF29 /* CheckTransaction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +55,17 @@
 		BEE4342016B03BC900FAAF29 /* WithdrawalTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithdrawalTransaction.m; sourceTree = "<group>"; };
 		BEE4342216B03BD600FAAF29 /* CheckTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckTransaction.h; sourceTree = "<group>"; };
 		BEE4342316B03BD600FAAF29 /* CheckTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckTransaction.m; sourceTree = "<group>"; };
+		BEE4342A16B03DA300FAAF29 /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE4342B16B03DA300FAAF29 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BEE4342D16B03DA300FAAF29 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		BEE4343016B03DA300FAAF29 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BEE4343116B03DA300FAAF29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BEE4343216B03DA300FAAF29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEE4343516B03DA300FAAF29 /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		BEE4343716B03DA300FAAF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEE4343916B03DA300FAAF29 /* UnitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitTests.h; sourceTree = "<group>"; };
+		BEE4343A16B03DA300FAAF29 /* UnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTests.m; sourceTree = "<group>"; };
+		BEE4343C16B03DA300FAAF29 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +77,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEE4342616B03DA300FAAF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE4342C16B03DA300FAAF29 /* SenTestingKit.framework in Frameworks */,
+				BEE4342E16B03DA300FAAF29 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -64,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				BEE4340916B03A7800FAAF29 /* BankAccount */,
+				BEE4343316B03DA300FAAF29 /* UnitTests */,
 				BEE4340616B03A7800FAAF29 /* Frameworks */,
 				BEE4340416B03A7800FAAF29 /* Products */,
 			);
@@ -73,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				BEE4340316B03A7800FAAF29 /* BankAccount */,
+				BEE4342A16B03DA300FAAF29 /* UnitTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				BEE4340716B03A7800FAAF29 /* Foundation.framework */,
+				BEE4342B16B03DA300FAAF29 /* SenTestingKit.framework */,
+				BEE4342D16B03DA300FAAF29 /* Cocoa.framework */,
+				BEE4342F16B03DA300FAAF29 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,6 +155,36 @@
 			name = src;
 			sourceTree = "<group>";
 		};
+		BEE4342F16B03DA300FAAF29 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4343016B03DA300FAAF29 /* AppKit.framework */,
+				BEE4343116B03DA300FAAF29 /* CoreData.framework */,
+				BEE4343216B03DA300FAAF29 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BEE4343316B03DA300FAAF29 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4343916B03DA300FAAF29 /* UnitTests.h */,
+				BEE4343A16B03DA300FAAF29 /* UnitTests.m */,
+				BEE4343416B03DA300FAAF29 /* Supporting Files */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		BEE4343416B03DA300FAAF29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4343516B03DA300FAAF29 /* UnitTests-Info.plist */,
+				BEE4343616B03DA300FAAF29 /* InfoPlist.strings */,
+				BEE4343C16B03DA300FAAF29 /* UnitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +204,24 @@
 			productName = BankAccount;
 			productReference = BEE4340316B03A7800FAAF29 /* BankAccount */;
 			productType = "com.apple.product-type.tool";
+		};
+		BEE4342916B03DA300FAAF29 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE4343D16B03DA300FAAF29 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				BEE4342516B03DA300FAAF29 /* Sources */,
+				BEE4342616B03DA300FAAF29 /* Frameworks */,
+				BEE4342716B03DA300FAAF29 /* Resources */,
+				BEE4342816B03DA300FAAF29 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = BEE4342A16B03DA300FAAF29 /* UnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -163,9 +245,37 @@
 			projectRoot = "";
 			targets = (
 				BEE4340216B03A7800FAAF29 /* BankAccount */,
+				BEE4342916B03DA300FAAF29 /* UnitTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEE4342716B03DA300FAAF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE4343816B03DA300FAAF29 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEE4342816B03DA300FAAF29 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEE433FF16B03A7800FAAF29 /* Sources */ = {
@@ -181,7 +291,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEE4342516B03DA300FAAF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE4344016B03DB900FAAF29 /* BankAccount.m in Sources */,
+				BEE4344116B03DB900FAAF29 /* Transaction.m in Sources */,
+				BEE4344216B03DB900FAAF29 /* DepositTransaction.m in Sources */,
+				BEE4344316B03DB900FAAF29 /* WithdrawalTransaction.m in Sources */,
+				BEE4344416B03DB900FAAF29 /* CheckTransaction.m in Sources */,
+				BEE4343B16B03DA300FAAF29 /* UnitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEE4343616B03DA300FAAF29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE4343716B03DA300FAAF29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BEE4341016B03A7800FAAF29 /* Debug */ = {
@@ -255,6 +389,32 @@
 			};
 			name = Release;
 		};
+		BEE4343E16B03DA300FAAF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BEE4343F16B03DA300FAAF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -272,6 +432,14 @@
 			buildConfigurations = (
 				BEE4341316B03A7800FAAF29 /* Debug */,
 				BEE4341416B03A7800FAAF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEE4343D16B03DA300FAAF29 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE4343E16B03DA300FAAF29 /* Debug */,
+				BEE4343F16B03DA300FAAF29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
